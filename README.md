@@ -65,11 +65,11 @@ Then follow the prompts to set up your admin account.
 ## 📚 API Documentation
 Swagger documentation is available at:
 ```html
-http://localhost:8000/api/schema/swagger-ui/
+http://localhost:8001/api/schema/swagger-ui/
 ```
 ReDoc documentation is available at:
 ```html
-http://localhost:8000/api/schema/redoc/
+http://localhost:8001/api/schema/redoc/
 ```
 ## 💾 Database Persistence
 PostgreSQL data is stored in a Docker volume named planetarium_db. This means your data will persist across container restarts.
